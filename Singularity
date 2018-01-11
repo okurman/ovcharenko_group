@@ -4,8 +4,7 @@ From: nvidia/cuda:8.0-cudnn6-runtime-ubuntu16.04
 ################################################################################
 %labels
 ################################################################################
-MAINTAINER Wolfgang Resch
-VERSION v3
+MAINTAINER Ovcharenko Group
 
 ################################################################################
 %environment
@@ -21,7 +20,7 @@ export PYTHONPATH=/usr/share/pdb2pqr:
 ### install keras + tensorflow + other useful packages
 ###
 apt-get update
-apt-get install -y wget libhdf5-dev graphviz locales python python-pip git xvfb python-vtk pdb2pqr python-pandas
+apt-get install -y graphviz locales python python-pip git python-vtk pdb2pqr python-pandas
 locale-gen en_US.UTF-8
 apt-get clean
 
