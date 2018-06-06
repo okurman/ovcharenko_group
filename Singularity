@@ -31,6 +31,7 @@ pip install setuptools wheel Pillow scikit-learn matplotlib ipython==5.5.0
 pip install --upgrade notebook
 pip install cython
 pip install Biopython
+pip install Tensorboard
 
 ###
 ### destination for NIH HPC bind mounts
