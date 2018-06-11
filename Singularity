@@ -32,7 +32,6 @@ pip install --upgrade notebook
 pip install cython
 pip install Biopython
 pip install Tensorboard
-pip install livelossplot
 
 ###
 ### destination for NIH HPC bind mounts
