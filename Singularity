@@ -24,7 +24,7 @@ apt-get install -y graphviz locales python python-pip git python-vtk pdb2pqr pyt
 locale-gen en_US.UTF-8
 apt-get clean
 
-pip install --upgrade pip
+#pip install --upgrade pip
 pip install tensorflow-gpu==1.4.0
 pip install keras
 pip install setuptools wheel Pillow scikit-learn matplotlib ipython==5.5.0
