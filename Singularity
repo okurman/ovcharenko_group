@@ -20,7 +20,7 @@ export PYTHONPATH=/usr/share/pdb2pqr:
 ### install keras + tensorflow + other useful packages
 ###
 apt-get update
-apt-get install -y graphviz locales python python-pip git python-vtk pdb2pqr python-pandas
+apt-get install -y graphviz locales python python-pip git python-vtk pdb2pqr python-pandas zlib1g-dev
 locale-gen en_US.UTF-8
 apt-get clean
 
