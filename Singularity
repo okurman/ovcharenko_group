@@ -32,6 +32,7 @@ python -m pip install --upgrade notebook
 python -m pip install cython
 python -m pip install Biopython
 python -m pip install Tensorboard
+python -m pip install pysam==0.13
 python -m pip install pybedtools
 
 ###
