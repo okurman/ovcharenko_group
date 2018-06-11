@@ -25,13 +25,13 @@ locale-gen en_US.UTF-8
 apt-get clean
 
 pip install --upgrade pip
-pip install tensorflow-gpu==1.4.0
-pip install keras
-pip install setuptools wheel Pillow scikit-learn matplotlib ipython==5.5.0
-pip install --upgrade notebook
-pip install cython
-pip install Biopython
-pip install Tensorboard
+python -m pip install tensorflow-gpu==1.4.0
+python -m pip install keras
+python -m pip install setuptools wheel Pillow scikit-learn matplotlib ipython==5.5.0
+python -m pip install --upgrade notebook
+python -m pip install cython
+python -m pip install Biopython
+python -m pip install Tensorboard
 
 ###
 ### destination for NIH HPC bind mounts
