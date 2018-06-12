@@ -26,7 +26,7 @@ apt-get clean
 
 pip install --upgrade pip
 python -m pip install tensorflow-gpu==1.4.1
-python -m pip install keras
+python -m pip install keras==2.1.2
 python -m pip install setuptools wheel Pillow scikit-learn matplotlib ipython==5.5.0
 python -m pip install --upgrade notebook
 python -m pip install cython
