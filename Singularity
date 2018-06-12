@@ -25,7 +25,7 @@ locale-gen en_US.UTF-8
 apt-get clean
 
 pip install --upgrade pip
-python -m pip install tensorflow-gpu==1.4.0
+python -m pip install tensorflow-gpu==1.8.0
 python -m pip install keras
 python -m pip install setuptools wheel Pillow scikit-learn matplotlib ipython==5.5.0
 python -m pip install --upgrade notebook
