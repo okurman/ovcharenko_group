@@ -34,7 +34,7 @@ python -m pip install Biopython
 python -m pip install Tensorboard
 python -m pip install pysam==0.13
 python -m pip install pybedtools
-
+python -m pip install h5py
 ###
 ### destination for NIH HPC bind mounts
 ###
