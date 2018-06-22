@@ -36,6 +36,7 @@ python -m pip install pysam==0.13
 python -m pip install pybedtools
 python -m pip install h5py
 python -m pip install hyperas
+python -m pip install networkx==1.11
 ###
 ### destination for NIH HPC bind mounts
 ###
