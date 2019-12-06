@@ -38,6 +38,7 @@ python -m pip install h5py
 python -m pip install hyperas
 python -m pip install networkx==1.11
 python -m pip install pandas
+python -m pip install np_utils
 ###
 ### destination for NIH HPC bind mounts
 ###
