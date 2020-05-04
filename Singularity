@@ -30,6 +30,7 @@ python -m pip install keras==2.1.2
 python -m pip install setuptools wheel Pillow scikit-learn matplotlib ipython==5.5.0
 python -m pip install --upgrade notebook
 python -m pip install cython
+python -m pip install seaborn
 python -m pip install Biopython
 python -m pip install Tensorboard
 python -m pip install pysam==0.13
